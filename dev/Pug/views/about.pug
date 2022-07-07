@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title About
+        include ../components/_styleFiles.pug
+    body(class="About")
+        include ../components/_header.pug
+        h3(id="Tit") About Us
+        include ../components/aboutPage/_about.pug
+        audio(src="./sounds/mixkit-arcade-game-jump-coin-216.wav" id="clicking")
+
+        include ../components/_footer.pug
+        include ../components/_jsFiles.pug
+        

@@ -1,0 +1,83 @@
+footer {
+  height: 15vh;
+  font-weight: bold;
+  background-color: var(--comp2-wmode-color);
+  color: var(--dominant1-wmode-color);
+  text-align: center;
+  padding: 7px 0;
+  display: flex;
+  align-items: center;
+  div {
+    a {
+      font-size: 22px;
+      margin-left: 13px;
+      cursor: pointer;
+      padding: 3px;
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 1.4;
+      &:first-child {
+        background-color: #1778f2;
+        color: #fff;
+        border-radius: 50%;
+        box-shadow: 6px -9px 9px -4px #000000 inset, 0px 3px 3px 1px #000000;
+        text-shadow: 3px 3px 2px #000000;
+      }
+      &:nth-child(2) {
+        display: none;
+        background: radial-gradient(
+          circle at 30% 107%,
+          #fdf497 0%,
+          #fdf497 5%,
+          #fd5949 45%,
+          #d6249f 60%,
+          #285aeb 90%
+        );
+        color: white;
+        border-radius: 50%;
+        box-shadow: 4px 2px 5px -1px #000 inset, 0px 3px 3px 1px #000;
+        text-shadow: 3px 2px 2px #000;
+      }
+      &:nth-child(3) {
+        background-color: #075e54;
+        color: white;
+        border-radius: 50%;
+        box-shadow: 6px -15px 9px -4px #000000 inset, 0px 3px 3px 1px #000000;
+        text-shadow: 3px 3px 2px #000000;
+      }
+      &:nth-child(4) {
+        background-color: #0088cc;
+        border-radius: 50%;
+        color: white;
+        position: relative;
+        box-shadow: 6px -9px 9px -4px #000000 inset, 0px 3px 3px 1px #000000;
+        text-shadow: 4px 0px 2px #000000;
+      }
+      &:last-child {
+          background-color: #2867b2;
+          border-radius: 5px;
+          color: white;
+          position: relative;
+          box-shadow: 6px -9px 9px -4px #000000 inset, 0px 3px 3px 1px #000000;
+          text-shadow: 4px 0px 2px #000000;
+        
+      }
+    }
+    p {
+      margin-top: 15px;
+      letter-spacing: 3px;
+      i {
+        color: red;
+        font-size: 20px;
+      }
+      @media (max-width: 500px) {
+        & {
+          font-size: 13px;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}
